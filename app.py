@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-<<<<<<< HEAD
 import cv2
 import matplotlib.pyplot as plt
 import time
@@ -253,7 +252,7 @@ if uploaded:
 else:
 
     st.info("Upload a crop image to start AI analysis.")
-=======
+
 from PIL import Image
 import cv2
 
@@ -402,4 +401,3 @@ if uploaded_file is not None:
 else:
 
     st.info("Upload an image to start crop lodging analysis.")
->>>>>>> ecbda714365dd31e69177846c0e43fda8049f561
